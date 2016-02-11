@@ -10,7 +10,7 @@
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
-    "eventsource": "^0.1.6",
+    "eventsource": "^0.2.0",
     "twitter": "^1.2.5"
   }
 }
