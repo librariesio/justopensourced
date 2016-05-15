@@ -364,9 +364,9 @@
       "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.13.3.tgz"
     },
     "twitter": {
-      "version": "1.2.5",
+      "version": "1.3.0",
       "from": "twitter@>=1.2.5 <2.0.0",
-      "resolved": "https://registry.npmjs.org/twitter/-/twitter-1.2.5.tgz"
+      "resolved": "https://registry.npmjs.org/twitter/-/twitter-1.3.0.tgz"
     },
     "url-parse": {
       "version": "1.0.5",
