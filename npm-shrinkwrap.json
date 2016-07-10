@@ -131,7 +131,7 @@
     },
     "form-data": {
       "version": "1.0.0-rc4",
-      "from": "form-data@>=1.0.0-rc3 <1.1.0",
+      "from": "form-data@>=1.0.0-rc4 <1.1.0",
       "resolved": "https://registry.npmjs.org/form-data/-/form-data-1.0.0-rc4.tgz"
     },
     "generate-function": {
@@ -287,9 +287,9 @@
       "resolved": "https://registry.npmjs.org/process-nextick-args/-/process-nextick-args-1.0.7.tgz"
     },
     "qs": {
-      "version": "6.1.0",
-      "from": "qs@>=6.1.0 <6.2.0",
-      "resolved": "https://registry.npmjs.org/qs/-/qs-6.1.0.tgz"
+      "version": "6.2.0",
+      "from": "qs@>=6.2.0 <6.3.0",
+      "resolved": "https://registry.npmjs.org/qs/-/qs-6.2.0.tgz"
     },
     "querystringify": {
       "version": "0.0.3",
@@ -302,9 +302,9 @@
       "resolved": "https://registry.npmjs.org/readable-stream/-/readable-stream-2.0.6.tgz"
     },
     "request": {
-      "version": "2.72.0",
+      "version": "2.73.0",
       "from": "request@>=2.51.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/request/-/request-2.72.0.tgz"
+      "resolved": "https://registry.npmjs.org/request/-/request-2.73.0.tgz"
     },
     "requires-port": {
       "version": "1.0.0",
