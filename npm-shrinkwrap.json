@@ -286,9 +286,9 @@
       "resolved": "https://registry.npmjs.org/querystringify/-/querystringify-0.0.4.tgz"
     },
     "request": {
-      "version": "2.77.0",
+      "version": "2.78.0",
       "from": "request@>=2.72.0 <3.0.0",
-      "resolved": "https://registry.npmjs.org/request/-/request-2.77.0.tgz"
+      "resolved": "https://registry.npmjs.org/request/-/request-2.78.0.tgz"
     },
     "requires-port": {
       "version": "1.0.0",
