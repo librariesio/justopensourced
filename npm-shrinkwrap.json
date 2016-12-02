@@ -40,8 +40,12 @@
     "bcrypt-pbkdf": {
       "version": "1.0.0",
       "from": "bcrypt-pbkdf@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.0.tgz",
-      "optional": true
+      "resolved": "https://registry.npmjs.org/bcrypt-pbkdf/-/bcrypt-pbkdf-1.0.0.tgz"
+    },
+    "bluebird": {
+      "version": "3.4.6",
+      "from": "bluebird@>=3.3.4 <4.0.0",
+      "resolved": "https://registry.npmjs.org/bluebird/-/bluebird-3.4.6.tgz"
     },
     "boom": {
       "version": "2.10.1",
@@ -98,8 +102,7 @@
     "ecc-jsbn": {
       "version": "0.1.1",
       "from": "ecc-jsbn@>=0.1.1 <0.2.0",
-      "resolved": "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz",
-      "optional": true
+      "resolved": "https://registry.npmjs.org/ecc-jsbn/-/ecc-jsbn-0.1.1.tgz"
     },
     "escape-string-regexp": {
       "version": "1.0.5",
@@ -206,14 +209,12 @@
     "jodid25519": {
       "version": "1.0.2",
       "from": "jodid25519@>=1.0.0 <2.0.0",
-      "resolved": "https://registry.npmjs.org/jodid25519/-/jodid25519-1.0.2.tgz",
-      "optional": true
+      "resolved": "https://registry.npmjs.org/jodid25519/-/jodid25519-1.0.2.tgz"
     },
     "jsbn": {
       "version": "0.1.0",
       "from": "jsbn@>=0.1.0 <0.2.0",
-      "resolved": "https://registry.npmjs.org/jsbn/-/jsbn-0.1.0.tgz",
-      "optional": true
+      "resolved": "https://registry.npmjs.org/jsbn/-/jsbn-0.1.0.tgz"
     },
     "json-schema": {
       "version": "0.2.3",
@@ -235,6 +236,16 @@
       "from": "jsprim@>=1.2.2 <2.0.0",
       "resolved": "https://registry.npmjs.org/jsprim/-/jsprim-1.3.1.tgz"
     },
+    "libhub": {
+      "version": "1.0.3",
+      "from": "libhub@latest",
+      "resolved": "https://registry.npmjs.org/libhub/-/libhub-1.0.3.tgz"
+    },
+    "lodash": {
+      "version": "4.17.2",
+      "from": "lodash@>=4.13.1 <5.0.0",
+      "resolved": "https://registry.npmjs.org/lodash/-/lodash-4.17.2.tgz"
+    },
     "mime-db": {
       "version": "1.25.0",
       "from": "mime-db@>=1.25.0 <1.26.0",
@@ -254,6 +265,11 @@
       "version": "1.0.0",
       "from": "original@>=1.0.0 <2.0.0",
       "resolved": "https://registry.npmjs.org/original/-/original-1.0.0.tgz"
+    },
+    "parse-link-header": {
+      "version": "0.4.1",
+      "from": "parse-link-header@>=0.4.1 <0.5.0",
+      "resolved": "https://registry.npmjs.org/parse-link-header/-/parse-link-header-0.4.1.tgz"
     },
     "pinkie": {
       "version": "2.0.4",
@@ -282,8 +298,18 @@
     },
     "request": {
       "version": "2.79.0",
-      "from": "request@>=2.72.0 <3.0.0",
+      "from": "request@>=2.73.0 <3.0.0",
       "resolved": "https://registry.npmjs.org/request/-/request-2.79.0.tgz"
+    },
+    "request-promise": {
+      "version": "4.1.1",
+      "from": "request-promise@>=4.0.0 <5.0.0",
+      "resolved": "https://registry.npmjs.org/request-promise/-/request-promise-4.1.1.tgz"
+    },
+    "request-promise-core": {
+      "version": "1.1.1",
+      "from": "request-promise-core@1.1.1",
+      "resolved": "https://registry.npmjs.org/request-promise-core/-/request-promise-core-1.1.1.tgz"
     },
     "requires-port": {
       "version": "1.0.0",
@@ -306,6 +332,11 @@
           "resolved": "https://registry.npmjs.org/assert-plus/-/assert-plus-1.0.0.tgz"
         }
       }
+    },
+    "stealthy-require": {
+      "version": "1.0.0",
+      "from": "stealthy-require@>=1.0.0 <2.0.0",
+      "resolved": "https://registry.npmjs.org/stealthy-require/-/stealthy-require-1.0.0.tgz"
     },
     "stringstream": {
       "version": "0.0.5",
@@ -335,8 +366,7 @@
     "tweetnacl": {
       "version": "0.14.3",
       "from": "tweetnacl@>=0.14.0 <0.15.0",
-      "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.3.tgz",
-      "optional": true
+      "resolved": "https://registry.npmjs.org/tweetnacl/-/tweetnacl-0.14.3.tgz"
     },
     "twitter": {
       "version": "1.4.0",
@@ -360,7 +390,7 @@
     },
     "xtend": {
       "version": "4.0.1",
-      "from": "xtend@>=4.0.0 <5.0.0",
+      "from": "xtend@>=4.0.0 <4.1.0",
       "resolved": "https://registry.npmjs.org/xtend/-/xtend-4.0.1.tgz"
     }
   }
