@@ -339,9 +339,9 @@
       "optional": true
     },
     "twitter": {
-      "version": "1.4.0",
+      "version": "1.5.0",
       "from": "twitter@>=1.2.5 <2.0.0",
-      "resolved": "https://registry.npmjs.org/twitter/-/twitter-1.4.0.tgz"
+      "resolved": "https://registry.npmjs.org/twitter/-/twitter-1.5.0.tgz"
     },
     "url-parse": {
       "version": "1.0.5",
