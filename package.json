@@ -11,6 +11,7 @@
   "license": "MIT",
   "dependencies": {
     "eventsource": "^0.2.0",
+    "libhub": "^1.0.3",
     "twitter": "^1.2.5"
   }
 }

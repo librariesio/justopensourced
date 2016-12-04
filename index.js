@@ -1,5 +1,7 @@
 var EventSource = require('eventsource');
 var Twitter = require('twitter');
+var LibhubClient = require('libhub');
+var github = new LibhubClient();
 
 var es = new EventSource('https://github-firehose.herokuapp.com/events');
 
@@ -13,13 +15,17 @@ var client = new Twitter({
 es.on('event', function(e) {
   var data = JSON.parse(e.data)
   if(data.type === 'PublicEvent'){
-    var status = data.actor.login + " just open sourced a repository: https://github.com/" + data.repo.name
-    client.post('statuses/update', {status: status}, function(error, tweet, response){
-      if (!error) {
-        console.log(tweet);
-      } else {
-        console.log(error);
-      };
+    github.get(`/repos/${data.repo.name}`)
+    .then((repo) => {
+      var status = `${data.actor.login} just open sourced a repository: https://github.com/${data.repo.name}`
+      if (repo.language) status += ' #' + repo.language
+      client.post('statuses/update', {status: status}, function(error, tweet, response){
+        if (!error) {
+          console.log(tweet);
+        } else {
+          console.log(error);
+        };
+      });
     });
   }
 });
