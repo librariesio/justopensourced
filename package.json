@@ -7,6 +7,9 @@
     "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "engines": {
+    "node": "7.9"
+  },
   "author": "Andrew Nesbitt",
   "license": "MIT",
   "dependencies": {
