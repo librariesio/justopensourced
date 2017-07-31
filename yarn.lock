@@ -75,9 +75,9 @@ dashdash@^1.12.0:
   dependencies:
     assert-plus "^1.0.0"
 
-deep-extend@^0.4.1:
-  version "0.4.2"
-  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.4.2.tgz#48b699c27e334bf89f10892be432f6e4c7d34a7f"
+deep-extend@^0.5.0:
+  version "0.5.0"
+  resolved "https://registry.yarnpkg.com/deep-extend/-/deep-extend-0.5.0.tgz#6ef4a09b05f98b0e358d6d93d4ca3caec6672803"
 
 delayed-stream@~1.0.0:
   version "1.0.0"
@@ -205,15 +205,15 @@ lodash@^4.13.1:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
-mime-db@~1.27.0:
-  version "1.27.0"
-  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.27.0.tgz#820f572296bbd20ec25ed55e5b5de869e5436eb1"
+mime-db@~1.29.0:
+  version "1.29.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.29.0.tgz#48d26d235589651704ac5916ca06001914266878"
 
 mime-types@^2.1.12, mime-types@~2.1.7:
-  version "2.1.15"
-  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.15.tgz#a4ebf5064094569237b8cf70046776d09fc92aed"
+  version "2.1.16"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.16.tgz#2b858a52e5ecd516db897ac2be87487830698e23"
   dependencies:
-    mime-db "~1.27.0"
+    mime-db "~1.29.0"
 
 oauth-sign@~0.8.1:
   version "0.8.2"
@@ -294,8 +294,8 @@ requires-port@1.0.x:
   resolved "https://registry.yarnpkg.com/requires-port/-/requires-port-1.0.0.tgz#925d2601d39ac485e091cf0da5c6e694dc3dcaff"
 
 safe-buffer@^5.0.1:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.0.tgz#fe4c8460397f9eaaaa58e73be46273408a45e223"
+  version "5.1.1"
+  resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
 sntp@1.x.x:
   version "1.0.9"
@@ -342,10 +342,10 @@ tweetnacl@^0.14.3, tweetnacl@~0.14.0:
   resolved "https://registry.yarnpkg.com/tweetnacl/-/tweetnacl-0.14.5.tgz#5ae68177f192d4456269d108afa93ff8743f4f64"
 
 twitter@^1.2.5:
-  version "1.7.0"
-  resolved "https://registry.yarnpkg.com/twitter/-/twitter-1.7.0.tgz#2882e208e0ad83bb226528613561f1dd233ac94b"
+  version "1.7.1"
+  resolved "https://registry.yarnpkg.com/twitter/-/twitter-1.7.1.tgz#0762378f1dc1c050e48f666aca904e24b1a962f4"
   dependencies:
-    deep-extend "^0.4.1"
+    deep-extend "^0.5.0"
     request "^2.72.0"
 
 url-parse@1.0.x:
@@ -356,8 +356,8 @@ url-parse@1.0.x:
     requires-port "1.0.x"
 
 uuid@^3.0.0:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.0.1.tgz#6544bba2dfda8c1cf17e629a3a305e2bb1fee6c1"
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
 verror@1.3.6:
   version "1.3.6"
