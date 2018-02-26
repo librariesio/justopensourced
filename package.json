@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "engines": {
-    "node": "9.3.0"
+    "node": "9.6.1"
   },
   "author": "Andrew Nesbitt",
   "license": "MIT",
